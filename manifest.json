@@ -1,0 +1,12 @@
+{
+  "name": "Denis Change",
+  "version": "1.0",
+  "description": "The best extension ever!",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["jquery.min.js", "denisChange.js"]
+    }
+  ],
+  "manifest_version": 2
+}
